@@ -29,7 +29,7 @@ spawn(
     function() --Makes this a new loop within the running script so it doesn't interfere with the rest of the script
         while wait(0.5) do
             if Window.flags.ThisNeedsToBeRemembered1 then
-                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("buyAllSwords","Inner Peace Island")
+                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("buyAllSwords","Blazing Vortex Island")
             else
 
             end
@@ -42,7 +42,7 @@ spawn(
     function() --Makes this a new loop within the running script so it doesn't interfere with the rest of the script
         while wait(0.5) do
             if Window.flags.ThisNeedsToBeRemembered2 then
-                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("buyAllBelts","Inner Peace Island")
+                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("buyAllBelts","Blazing Vortex Island")
             else
 
             end
@@ -55,7 +55,7 @@ spawn(
     function() --Makes this a new loop within the running script so it doesn't interfere with the rest of the script
         while wait(0.5) do
             if Window.flags.ThisNeedsToBeRemembered3 then
-                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("buyAllSkills","Inner Peace Island")
+                game:GetService("Players").LocalPlayer.ninjaEvent:FireServer("buyAllSkills","Blazing Vortex Island")
             else
 
             end
@@ -64,6 +64,8 @@ spawn(
 )
 
 local button = Window:Button("Auto-Learn Islands", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.47239685059, 91245.84375, 54.342918395996)
+   wait()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(167.85900878906, 87050.53125, 73.799110412598)
    wait()
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(132.45906066895, 83198.7578125, 54.173229217529)
@@ -232,7 +234,7 @@ spawn(
     function() --Makes this a new loop within the running script so it doesn't interfere with the rest of the script
         while wait(0.7) do
             if Window.flags.ThisNeedsToBeRemembered8 then
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.275749206543, 87060.265625, 126.42332458496)
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(79.173927307129, 91253.8203125, 127.47598266602)
             else
 
             end
